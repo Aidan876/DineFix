@@ -1,21 +1,44 @@
 .footer {
   width: 100%;
-  height: 200px;
-  background-color: #FFFFFF;
+  height: 100px;
+  background-color: #adebee;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 10px;
+  padding-top: 20px;
+}
+.hfooter{
+  width: 100%;
+  height: 150px;
+  background-color: #FFFFFF;    
+  align-items: center;  
+  text-align: center;
+  padding: 50px;  
+  margin-top: 20px;
+  white-space: nowrap;
+
+}
+.hfooter a {
+  display: inline-block;
+  font-size: 20px; 
+  color: #00c2cb;
+  text-decoration: none;
+  width: 20%;
+  
+
+}
+.hfooter a:hover{
+  color: rgb(173, 234, 237);
 }
 
 .socialMedia svg {
-  color: cyan;
+  color: #00c2cb;
   margin: 20px;
   font-size: 70px;
   cursor: pointer;
 }
 
 .footer p {
-  color: cyan;
+  color: #00c2cb;
 }

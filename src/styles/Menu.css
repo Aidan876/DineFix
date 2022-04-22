@@ -6,9 +6,16 @@
   align-items: center;
   flex-direction: column;
 }
+
 .menu .menuTitle {
+ 
   font-family: Arial;
   font-size: 60px;
+  color: #00c2cb;
+  background-color: #adebee;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .menuList {
@@ -19,6 +26,8 @@
   place-items: center;
 }
 
+  
+
 /* MENU ITEM STYLING */
 
 .menuItem {
@@ -28,6 +37,7 @@
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
+
 .menuItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;

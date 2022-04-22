@@ -5,6 +5,7 @@
 }
 
 .contact .leftSide {
+  margin-top: 10px;
   height: 100%;
   flex: 50%;
   background-position: center;
@@ -26,6 +27,9 @@
   font-weight: 10;
   font-size: 50px;
   margin-left: 30px;
+  color:#00c2cb;
+  padding-top: 40px;
+  
 }
 
 form {
@@ -34,6 +38,7 @@ form {
   width: auto;
   height: auto;
   padding: 30px;
+  color: #545454;
 }
 
 form input {
@@ -65,16 +70,28 @@ textarea:focus {
 
 form label {
   margin-top: 15px;
-  color: grey;
+  color:  #545454;;
 }
 
 form button {
+  color: white; 
+  margin-left: 110px; 
   margin-top: 40px;
-  width: 140px;
-  height: 40px;
   border: none;
-  background-color: cyan;
-  color: whitesmoke;
-  font-size: 15px;
+  border-radius: 10px;
   cursor: pointer;
+  justify-content: center;
+  background-color: #00c2cb;
+  height: 40px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+form button:hover {
+  background-color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  color: #00c2cb;
 }

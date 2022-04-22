@@ -14,42 +14,60 @@
 .headerContainer {
   width: auto;
   margin-left: 50px;
+  padding-bottom: 20px;
+}
+.textContainer{
+  width: 400px;
+  height: 350px;
+  background-color: #adebee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 75px;
+  left: 400px;
+  
 }
 
-.headerContainer h1 {
+.textContainer img {
   justify-content: center;
-  align-items: center;
-  font-size: 90px;
-  height: 60px;
-  font-weight: 50;
-  color: white;
+  margin-left: 15px;
+  align-items: center;  
+  height: 60px;  
+  position: relative;
+  left: 90px;
+  top: 30px;
 }
 
-.headerContainer p {
-  padding: 0;
+.textContainer p {
+  margin-left:  15px;
   font-size: 40px;
   font-weight: lighter;
   color: white;
+  text-align: center;
 }
 
-.headerContainer button {
-  color: white;
+.textContainer button {
+  color: white; 
+  margin-left: 110px; 
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   justify-content: center;
-  background-color: #000000;
+  background-color: #00c2cb;
   height: 50px;
   width: 180px;
   color: white;
   text-decoration: none;
   font-size: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  position: centre;
 }
 
-.headerContainer button:hover {
+.textContainer button:hover {
   background-color: #FFFFFF;
   cursor: pointer;
   transition: 0.3s ease-in;
+  color: #00c2cb;
 }
 
 @media only screen and (max-width: 650px) {
@@ -57,11 +75,9 @@
     justify-content: center;
     align-items: center;
   }
-  .headerContainer h1,
-  .headerContainer p {
-  }
+  
 
-  .headerContainer {
+  .textContainer {
     margin-left: 0px;
     border-radius: 10px;
     padding: 10px;
@@ -74,19 +90,19 @@
     color: white;
   }
 
-  .headerContainer h1 {
+  .textContainer h1 {
     font-size: 40px;
     height: 30px;
-    color: white;
+    color: #00c2cb;
   }
 
-  .headerContainer p {
+  .textContainer p {
     font-size: 30px;
     color: white;
   }
 
-  .headerContainer button {
-    background-color: white;
+  .textContainer button {
+    background-color: #00c2cb;
     color: #FFFFFF;
     margin-bottom: 30px;
   }

@@ -4,11 +4,20 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import "../styles/Footer.css";
 
+
 function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> 
+        <a href="https://www.instagram.com/?hl=en">
+        <InstagramIcon />
+        </a> 
+        <a href="https://twitter.com">
+        <TwitterIcon />
+        </a> 
+        <a href="https://www.facebook.com">
+        <FacebookIcon /> 
+        </a>
       </div>
       <p> &copy; 2022 DineFix</p>
     </div>

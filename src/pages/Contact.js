@@ -1,5 +1,5 @@
 import React from "react";
-import Placeholder from "../assets/DineFix.png";
+import Placeholder from "../assets/burger.jpg";
 import "../styles/Contact.css";
 
 function Contact() {

@@ -6,6 +6,10 @@ import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
+import Login1 from "./pages/Login1";
+
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
           <Route path="/menu" exact component={Menu} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
+          <Route path="/Restaurants-Login" exact component={Login}/>
+          <Route path="/Charities-Login" exact component={Login1}/>
+          <Route path="*"><NotFound/></ Route>
         </Switch>
+       
         <Footer />
       </Router>
     </div>

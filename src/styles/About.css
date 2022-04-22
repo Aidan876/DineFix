@@ -1,16 +1,17 @@
 .about {
   width: 100%;
-  height: 90vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
 }
 
 .aboutTop {
   width: 100%;
-  height: 45%;
+  height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -28,8 +29,9 @@
 
 .about .aboutBottom h1 {
   font-weight: 400;
+  
   font-size: 70px;
-  color: black;
+  color: #00c2cb;
   height: 30px;
   display: flex;
   justify-content: center;
