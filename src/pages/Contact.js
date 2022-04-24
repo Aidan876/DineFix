@@ -27,6 +27,7 @@ function Contact() {
           <button type="submit"> Send Message</button>
         </form>
       </div>
+      <br/>
     </div>
   );
 }

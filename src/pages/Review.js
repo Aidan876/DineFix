@@ -1,5 +1,3 @@
-import React from 'react';
-import Placeholder from "../assets/DineFix.png";
 import "../styles/Review.css";
 
 function Review() {

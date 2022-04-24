@@ -6,7 +6,7 @@
 }
 
 .contact .leftSide {
-  margin-top: 10px;
+ 
   height: 100%;
   flex: 50%;
   background-position: center;
@@ -72,7 +72,7 @@ textarea:focus {
 
 form label {
   margin-top: 15px;
-  color:  #545454;;
+  color:  #545454;
 }
 
 form button {

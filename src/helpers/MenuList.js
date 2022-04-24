@@ -1,39 +1,33 @@
-import test1 from "../assets/pizza.png";
-import test2 from "../assets/chicken wing.png";
-import test3 from "../assets/burger.png";
-import test4 from "../assets/steak.png";
-import test5 from "../assets/lasagna.png";
-import test6 from "../assets/soup.png";
+import test1 from "../assets/DineFix.png";
+import test2 from "../assets/DineFix.png";
+import test3 from "../assets/DineFix.png";
+import test4 from "../assets/DineFix.png";
+import test5 from "../assets/DineFix.png";
+import test6 from "../assets/DineFix.png";
 
 export const MenuList = [
   {
-    name: "Gourmet Pizza",
+    name: "Placeholder1",
     image: test1,
-    price: 19.99, 
   },
   {
-    name: "Chicken Wings",
+    name: "Placeholder2",
     image: test2,
-    price: 10.99,
   },
   {
-    name: "Beef Burger",
+    name: "Placeholder3",
     image: test3,
-    price: 7.99,
   },
   {
-    name: "Steak",
+    name: "Placeholder4",
     image: test4,
-    price: 14.99,
   },
   {
-    name: "Lasange",
+    name: "Placeholder5",
     image: test5,
-    price: 12.99,
   },
   {
-    name: "Veggie Soup",
+    name: "Placeholder6",
     image: test6,
-    price: 12.99,
   },
 ];

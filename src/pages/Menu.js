@@ -1,4 +1,8 @@
 import React from "react";
+
+
+import { Link } from 'react-router-dom';
+
 import { MenuList } from "../helpers/MenuList";
 import MenuItem from "../components/MenuItem";
 import "../styles/Menu.css";
@@ -21,8 +25,13 @@ function Menu() {
         })}
       </div>
       <p>Gourmet food made with care</p>
+      <Link to="/Checkout">
+          <button >Checkout</button>
+          </Link>
     </div>
+     
   );
 }
 
 export default Menu;
+

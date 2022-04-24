@@ -1,5 +1,6 @@
 .home {
   width: 100%;
+  margin:0, auto;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -13,8 +14,9 @@
 
 .headerContainer {
   width: auto;
-  margin-left: 50px;
+ 
   padding-bottom: 20px;
+  margin: 0, auto;
 }
 .textContainer{
   width: 400px;
@@ -24,13 +26,13 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   position: relative;
   top: 75px;
-  left: 400px;
+  left: 440px;
   
 }
 
 .textContainer img {
   justify-content: center;
-  margin-left: 15px;
+  
   align-items: center;  
   height: 60px;  
   position: relative;
