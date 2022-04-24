@@ -6,7 +6,8 @@ import "../styles/Menu.css";
 function Menu() {
   return (
     <div className="menu">
-      <h1 className="menuTitle">Restaurant List</h1>
+      <h1 className="menuTitle">Restaurant Menu</h1>
+      <h9 className="menuTitle">Gourmet Food</h9>
       <div className="menuList">
         {MenuList.map((menuItem, key) => {
           return (
@@ -19,6 +20,7 @@ function Menu() {
           );
         })}
       </div>
+      <p>Gourmet food made with care</p>
     </div>
   );
 }
